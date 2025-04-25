@@ -20,7 +20,10 @@ import io.cucumber.java.BeforeAll;
 import utils.Base;
 import utils.MailUtility;
 import utils.Reporter;
-
+public class Hooks extends Base {
+ 
+    static ExtentReports report;
+    static ExtentTest test;
 public class Hooks extends Base {
 
     static ExtentReports report;
@@ -44,43 +47,9 @@ public class Hooks extends Base {
     @AfterAll
     public static void saveReports() {
         report.flush();
-        String reportPath = System.getProperty("user.dir") + "/reports/Avon Cycles Report_"
-                + new SimpleDateFormat("2025.04.23.13.51.36").format(new Date()) + ".html";
-        MailUtility.sendEmail("sharmilaabdul113@gmail.com", "Report", "Report Test", reportPath);
+        
     }
 
 }
  
-    static ExtentReports report;
-    static ExtentTest test;
-
-public class Hooks extends Base {
-    static ExtentReports report;
-    static ExtentTest test;
-    @BeforeAll
-    public static void reports()
-    {
-        report = Reporter.createReport("Avon Cycles Report");
-    }
- 
-    @Before
-    public void setUp() throws IOException
-    public void setUp()
-    {
-         openBrowser();
-    }
- 
-    @After
-    public void tearDown()
-    {
-        driver.quit();
-    }
- 
-    @AfterAll
-    public static void saveReports()
-    {
-        report.flush();
-    }
- 
-}
-
+    

@@ -76,7 +76,7 @@ public class LoggerHandler {
      * Return type: void
      * Param List: String msg - The message to log.
      */
-    public void logError(String msg) {
+    public static void logError(String msg) {
         log.error(msg);
     }
  
