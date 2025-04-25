@@ -1,9 +1,10 @@
 package stepdefinitions;
- 
+
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import io.cucumber.java.After;
@@ -13,11 +14,9 @@ import io.cucumber.java.BeforeAll;
 import utils.Base;
 import utils.MailUtility;
 import utils.Reporter;
-
 public class Hooks extends Base {
     static ExtentReports report;
     static ExtentTest test;
- 
     @BeforeAll
     public static void reports()
     {
@@ -25,7 +24,7 @@ public class Hooks extends Base {
     }
  
     @Before
-    public void setUp() throws IOException
+    public void setUp()
     {
          openBrowser();
     }
@@ -45,4 +44,4 @@ public class Hooks extends Base {
     }
  
 }
- 
+
