@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  
 /**
 * Class Name: WebDriverHelper
-* Author Name: Sharmila Abdul
+* Author Name: Chikka Anjani
 * Description: This class contains helper methods for interacting with web elements using WebDriver.
 */
  
@@ -29,7 +29,7 @@ public class WebDriverHelper {
  
 /**
      * Constructor Name: WebDriverHelper
-     * Author Name: Sharmila Abdul
+     * Author Name: Chikka Anjani
      * Description: Initializes the WebDriver and LoggerHandler objects.
      * Param List:
      *   - WebDriver driver: The WebDriver instance to be used for interacting with web elements.
@@ -43,7 +43,7 @@ public class WebDriverHelper {
     /*
      * Method Name: waitForElementToBeVisible
      * Description: This method waits for a web element to become visible within the specified time limit.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator, int time
      * Return Type: void
      */
@@ -59,7 +59,7 @@ public class WebDriverHelper {
     /*
      * Method Name: waitForElementToBeClickable
      * Description: This method waits for a web element to become clickable within the specified time limit.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator, int time
      * Return Type: void
      */
@@ -75,7 +75,7 @@ public class WebDriverHelper {
     /*
      * Method Name: clickOnElement
      * Description: This method waits for an element to become visible and clickable before performing a click action.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator
      * Return Type: void
      */
@@ -92,7 +92,7 @@ public class WebDriverHelper {
     /*
      * Method Name: typeInElement
      * Description: This method waits for an element to become visible before entering a provided string into it.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator, String str
      * Return Type: void
      */
@@ -108,7 +108,7 @@ public class WebDriverHelper {
     /*
      * Method Name: hoverOverElement
      * Description: This method waits for an element to be visible and clickable, then hovers over it using Selenium Actions.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator
      * Return Type: void
      */
@@ -126,7 +126,7 @@ public class WebDriverHelper {
     /*
      * Method Name: enter
      * Description: This method finds a specified element and simulates the "Enter" key press action on it.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator
      * Return Type: void
      */
@@ -141,7 +141,7 @@ public class WebDriverHelper {
     /*
      * Method Name: scroll
      * Description: This method finds a specified element and moves the cursor to it using the Actions class.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator
      * Return Type: void
      */
@@ -154,7 +154,7 @@ public class WebDriverHelper {
     /*
      * Method Name: navigateBack
      * Description: This method navigates the browser back to the previous page in the browsing history.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: None
      * Return Type: void
      */
@@ -166,7 +166,7 @@ public class WebDriverHelper {
     /*
      * Method Name: alertDismiss
      * Description: This method switches the WebDriver's context to an alert and dismisses it.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: None
      * Return Type: void
      */
@@ -182,7 +182,7 @@ public class WebDriverHelper {
     /*
      * Method Name: switchWindow
      * Description: This method switches the webdriver content to a different window.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: None
      * Return Type: void
      */
@@ -204,7 +204,7 @@ public class WebDriverHelper {
     /*
      * Method Name: getElementsByXPath
      * Description: This method retrieves a list of WebElements using the specified XPath.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: String str
      * Return Type: List<WebElement>
      */
@@ -220,7 +220,7 @@ public class WebDriverHelper {
     /*
      * Method Name: iterate
      * Description: This method iterates through a list of WebElements retrieved using an XPath and performs specific actions based on the element's text content.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: String str, String str1
      * Return Type: void
      */
@@ -242,7 +242,7 @@ public class WebDriverHelper {
     /*
      * Method Name: dropdown
      * Description: This method applies a filter to a dropdown menu by selecting an option based on its visible text.
-     * Author: Sharmila Abdul
+     * Author: Chikka Anjani
      * Parameters: By locator, String str
      * Return Type: void
      */
@@ -259,7 +259,7 @@ public class WebDriverHelper {
  
 /**
 * Method Name: clearInput
-* Author Name: Sharmila Abdul
+* Author Name: Chikka Anjani
 * Description: Clears the input field identified by the specified locator.
 * Return type: void
 * Param List:

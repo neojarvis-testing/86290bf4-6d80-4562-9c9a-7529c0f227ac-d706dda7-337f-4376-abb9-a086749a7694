@@ -26,10 +26,8 @@ public class MailUtility {
                message.setSubject(subject);
                MimeBodyPart messageBodyPart = new MimeBodyPart();
                messageBodyPart.setText(messageText);
-               // Attachment part
                MimeBodyPart attachmentPart = new MimeBodyPart();
-               attachmentPart.attachFile(new File(attachmentPath));
-               // Combine parts
+               attachmentPart.attachFile(new File(attachmentPath));              
                Multipart multipart = new MimeMultipart();
                multipart.addBodyPart(messageBodyPart);
                multipart.addBodyPart(attachmentPart);
