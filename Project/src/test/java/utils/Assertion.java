@@ -65,7 +65,7 @@ public class Assertion {
      *   - String expected: The expected URL.     
      */
  
-    public void verifyUrl(String expected) {
+    public  void verifyUrl(String expected) {
         try {
             String actual = Base.driver.getCurrentUrl();
             Assert.assertEquals(actual, expected);
