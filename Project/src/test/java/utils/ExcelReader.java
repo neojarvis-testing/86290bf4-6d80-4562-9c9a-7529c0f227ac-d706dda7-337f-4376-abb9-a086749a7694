@@ -27,7 +27,13 @@ public class ExcelReader {
         workbook.close();
         return value;
     }
- 
+    /*
+     * Method Name: getExcelData
+     * Author Name: Jindam Pragna
+     * Description: This method reads data from an Excel sheet and returns it as a String[][] array
+     * Return Type: String
+     * Parameter List: String path, String sheet
+     */
     public static String[][] getExcelData(String path, String sheet) throws IOException {
             FileInputStream file = new FileInputStream(path);
             XSSFWorkbook workbook = new XSSFWorkbook(file);
