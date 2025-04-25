@@ -59,7 +59,7 @@ public class WebDriverHelper {
     /*
      * Method Name: waitForElementToBeClickable
      * Description: This method waits for a web element to become clickable within the specified time limit.
-     * Author: Chikka Anjani
+     * Author:Chikka Anjani
      * Parameters: By locator, int time
      * Return Type: void
      */
@@ -75,7 +75,7 @@ public class WebDriverHelper {
     /*
      * Method Name: clickOnElement
      * Description: This method waits for an element to become visible and clickable before performing a click action.
-     * Author: Chikka Anjani
+     * Author:Chikka Anjani
      * Parameters: By locator
      * Return Type: void
      */
