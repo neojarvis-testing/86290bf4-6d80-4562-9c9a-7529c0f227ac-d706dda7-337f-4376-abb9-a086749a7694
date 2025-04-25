@@ -25,8 +25,8 @@ public class Base {
             ChromeOptions options = new ChromeOptions();
             driver = new RemoteWebDriver(new URL(loadProperties.getProperty("gridurl")), options);
             driver.manage().window().maximize();
-            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
-            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(12));
+            driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
             driver.get(loadProperties.getProperty("url"));
  
         } catch (Exception e) {
